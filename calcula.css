@@ -1,0 +1,77 @@
+body>form {
+    margin: 0.125em;
+    padding: 1em;
+    background-color: rgb(214, 49, 49);
+    color: black;
+    border-radius: 0.625em;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 0.5em;
+    column-gap: 0.5em;
+    height: 40em;
+    width: 70em;
+    min-width: 15em;
+}
+
+
+button {
+    font-size: 1.563em;
+    background-color: rgb(220, 140, 252);
+    color: black;
+    max-width: 200px;
+    margin-left: 30px;
+}
+button:hover{
+    background-color: rgb(168, 255, 255);
+}
+
+
+body>form>textarea {
+    text-align: left;
+    margin-bottom: 1em;
+    background-color: rgb(218, 213, 148);
+    max-height: 5em;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    color: black;
+    resize: none;
+    font-size: 50px;
+    height: 2em;
+}
+
+
+
+body>form>button:nth-child(14),
+
+
+body>form>button:nth-child(15),
+
+
+body>form>button:nth-child(16),
+
+
+body>form>button:nth-child(18),
+
+
+body>form>button:nth-child(19),
+
+
+body>form>button:nth-child(20),
+
+
+body>form>button:nth-child(22),
+
+
+body>form>button:nth-child(23),
+
+
+body>form>button:nth-child(24),
+
+
+body>form>button:nth-child(26),
+
+
+body>form>button:nth-child(27) {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
